@@ -1,4 +1,3 @@
-/*
 package BegineersGuideToScala.ALittleScala.CheckingTheAvailableMemory
 
 object CheckingAvailableMemory {
@@ -16,4 +15,3 @@ object CheckingAvailableMemory {
     println(s"Total memory is $totalMemory and free memory is now $newFreeMemory")
   }
 }
-*/

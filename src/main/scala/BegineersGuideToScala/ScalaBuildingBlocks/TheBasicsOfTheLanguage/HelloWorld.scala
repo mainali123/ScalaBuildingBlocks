@@ -1,3 +1,4 @@
+/*
 package BegineersGuideToScala.ScalaBuildingBlocks.TheBasicsOfTheLanguage
 
 object HelloWorld extends App {
@@ -9,3 +10,4 @@ object HelloWorld extends App {
   }
 
 }
+*/
