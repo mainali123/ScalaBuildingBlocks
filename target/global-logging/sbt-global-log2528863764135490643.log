@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(console, Some(f3b579dc-5a1e-48f4-aaba-0a07a789e614), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / console[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 51 Scala sources to D:\ScalaBuildingBlocks\target\scala-3.3.0\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: D:\ScalaBuildingBlocks\src\main\scala\ProgrammingInScala\FunctionsAndClosures\LocalFunctions.scala:16:2 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m16 |[0m  [33mdef[0m [36mpadLines[0m([36mtext[0m: [35mString[0m, [36mminWidth[0m: [35mInt[0m): [35mString[0m =[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m  Line is indented too far to the right, or a `{` or `:` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: D:\ScalaBuildingBlocks\src\main\scala\AdvancedScalaAndFunctionalProgramming\TasteOfAdvanceScala\AdvancedPatternMatching.scala:23:22 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m23 |[0m  [33mval[0m [36mmustHaveThree[0m = numberList [33mmatch[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                      ^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m                      [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m                      It would fail on pattern case: List(_, _*), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E029] Pattern Match Exhaustivity Warning: D:\ScalaBuildingBlocks\src\main\scala\AdvancedScalaAndFunctionalProgramming\TasteOfAdvanceScala\AdvancedPatternMatching.scala:27:22 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m27 |[0m  [33mval[0m [36mstartsWithOne[0m = numberList [33mmatch[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                      ^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m                      [33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m                      It would fail on pattern case: List(_, _*), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was 1 deprecation warning; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
