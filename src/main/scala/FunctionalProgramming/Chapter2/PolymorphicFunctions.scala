@@ -25,7 +25,7 @@ def findFirstMonomorphic(ss: Array[String], key: String): Int = {
 
 
 // Polymorphic function to find string in an array
-def findFirstPolymorphic[A] (as: Array[A], p: A => Boolean): Int = {
+/*def findFirstPolymorphic[A] (as: Array[A], p: A => Boolean): Int = {
   @tailrec
   def loop(n: Int): Int = {
     if n >= as.length then -1
@@ -33,4 +33,4 @@ def findFirstPolymorphic[A] (as: Array[A], p: A => Boolean): Int = {
     else loop(n + 1)
   }
   loop(0)
-}
+}*/
